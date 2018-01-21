@@ -1,0 +1,95 @@
+
+/* .fade {
+    animation: 0.4s ease-out fadeIn 1;
+  }
+   */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+    }
+    100% {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+.Tooltip {
+    padding: 0px;
+    margin: 0px;
+    width: 0px;
+    height: 0px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    animation: 0.3s ease-in-out fadeIn 1;
+    animation-fill-mode: backwards;
+    animation-delay: .3s;
+}
+
+.Tooltip-caret {
+    font-size: 20px;
+    position: absolute;
+}
+
+.Tooltip-box {
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 9px;
+    border-radius: 7px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.Tooltip-caret-se {
+    top: -7px;
+    left: 2px;
+}
+
+.Tooltip-box-se {
+    left: -11px;
+    top: 7px;
+}
+
+.Tooltip-caret-s {
+    top: -7px;
+    left: 2px;    
+}
+    
+.Tooltip-box-s {
+    left: -40px;
+    top: 7px;
+}
+
+.Tooltip-caret-sw {
+    
+}
+
+.Tooltip-box-sw {
+    
+}
+
+.Tooltip-caret-n {
+    
+}
+
+.Tooltip-box-n {
+    
+}
+
+.Tooltip-caret-nw {
+    
+}
+
+.Tooltip-box-nw {
+    
+}
+
+.Tooltip-caret-ne {
+    
+}
+
+.Tooltip-box-ne {
+    
+}

@@ -1,0 +1,14 @@
+.DotIcon {
+    font-size: 11px;
+    margin-top: -15px;
+    margin-left: -5px;
+    padding: 14px 10px 13px 8px;
+    margin-bottom: -10px;
+    position: relative;
+    z-index: 50;
+}
+
+/* use to test tooltip padding
+.DotIcon:hover {
+
+}  */
