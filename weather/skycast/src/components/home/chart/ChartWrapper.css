@@ -1,0 +1,31 @@
+.ChartWrapper {
+    width: 750px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.ChartToggle {
+    background: #9ED0E6;
+    height: 45px;
+    font-size: 16px;
+    padding-top: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.ChartButtons {
+    display: flex;
+    margin-left: -20px;
+}
+
+.ChartWrapperTime, .ChartWrapperType {
+    display: flex;
+}
+/* .HomeToggleTableButtonWrap {
+    display: flex;
+    margin: 10px 0px 0px 0px;
+} */

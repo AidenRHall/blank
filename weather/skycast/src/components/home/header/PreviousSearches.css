@@ -1,0 +1,57 @@
+.PreviousSearchesTrigger {
+    font-size: 18px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.PreviousSearches {
+    position: relative;
+    padding: 3px;
+}
+
+.HistoryListWrap {
+    font-size: 13px;
+    color: white;
+    position: relative;
+    top: 13px;
+    right: -140px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.HistoryListWrap h2 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: -5px;
+    letter-spacing: .5px;
+}
+
+
+.HistoryList {
+    background: #c9e0e3;
+    list-style-type: none;
+    border-radius: 4px;
+    top: 23px;
+    position: absolute;
+    padding: 0px 0px 10px 0px;
+    left: -13px;
+    width: 200px;
+}
+
+.HistoryItem {
+    color: rgb(116, 115, 115);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+.HistoryItem:hover {
+    color: #2c182d;
+    background: #5da3ac;
+    border-radius: 4px;
+}

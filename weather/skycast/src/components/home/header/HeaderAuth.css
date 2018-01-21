@@ -1,0 +1,36 @@
+.HeaderAuth {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    justify-content: space-between;
+    width: 220px;
+    padding-top: 5px;
+    margin-right: 20px;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+.HeaderAuth a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.HeaderAuth a:hover {
+    text-decoration: none;
+}
+
+.HeaderAuth h4 {
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+.HeaderAuthNotLoggedIn {
+    width: 180px;
+}
+
+.HeaderAuthNotLoggedIn h4:first-child {
+    border-right: 1px solid white;
+    padding-right: 17px;
+}

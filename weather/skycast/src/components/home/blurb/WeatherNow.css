@@ -1,0 +1,145 @@
+.WeatherNow {
+    display:flex;
+    width: 490px;
+    height: 280px;
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+.WeatherNowBox {
+    width: 350px;
+    padding: 25px;
+}
+
+.WeatherNowStats {
+    width: 146px;
+    color: #2c182d;
+    background: #EDEDED;
+    margin-left: 10px;
+
+}
+
+.WeatherNowHeader {
+    text-align: center;
+    height: 50px;
+}
+
+.WeatherNowHeaderPlace {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: -3px;
+}
+
+.WeatherNowHeaderTime {
+    margin-top: 3px;
+    font-size: 17px;
+    margin-bottom: 2px;
+    opacity: 0.7;
+}
+
+.WeatherNowTempIcon {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.WeatherNowTempDesc {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.WeatherNowTempDesc i {
+    font-size: 10px;
+    position: relative;
+    top: -18px;
+    right: -2px;
+}
+
+.WeatherNowDesc {
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: bold;
+    transform:scaleY(1.25);
+}
+
+.WeatherNowDesc {
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: bold;
+    transform:scaleY(1.25);
+    margin-top: 4px;
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: bold;
+    transform:scaleY(1.25);
+}
+
+.WeatherNowIcon {
+    margin-right: -16px;
+    margin-top: 5px;
+    height: 64px;
+    width: 126px;
+}
+
+.WeatherNowBoxStats {
+    margin-top: -5px;
+    margin: 10px auto;
+    width: 153px;
+    line-height: 15px;
+    margin-top: 35px;
+    position: relative;
+    right: -10px;
+}
+
+.WeatherNowBoxStats h4 {
+    margin: 0px;
+    padding-bottom: 4px;
+    font-size: 17.5px;
+    font-weight: 100;
+}
+
+.WeatherNowBoxStats h4 span i {
+    font-size: 7px;
+    position: relative;
+    top: -6px;
+    right: -2px;
+}
+
+.WeatherNowStatsItemData span i {
+    font-size: 7px;
+    position: relative;
+    top: -6px;
+    right: -2px;
+}
+
+.WeatherNowStatsHeader {
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 600;    
+    margin-bottom: -5px;
+}
+
+.WeatherNowStatsItem {
+    margin: 7px 10px;
+    padding-bottom: 3px;
+    border-bottom: .1px solid rgb(77, 74, 74);
+}
+
+.WeatherNowStatsItem:last-of-type {
+    margin: 7px;
+    padding-bottom: 3px;
+    border-bottom: none;
+}
+
+.WeatherNowStatsItemTitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+}

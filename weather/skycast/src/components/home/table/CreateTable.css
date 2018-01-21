@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    width: 790px;
+    margin: auto;
+    position:relative;
+}
+
+th {
+    padding: 10px;
+    background: #1D4E89;
+    margin: 0px;
+    color: white;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+tr, td {
+    background: #EDEDED;
+    box-sizing: border-box;
+
+   
+}
+
+td div:first-child{
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+tr {
+    border-bottom: 2px solid #86bac1;
+}
+
+tr:last-of-type {
+    border-bottom: none;
+}
+
+.TableFCircle {
+    font-size: 7px;
+    position: relative;
+    top: -5px;
+    right: -2px;  
+}

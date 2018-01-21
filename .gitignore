@@ -1,0 +1,22 @@
+
+#Skycast
+
+# dependencies
+/weather/skycast/node_modules
+
+# testing
+/weather/skycast/coverage
+
+# production
+/weather/skycast/build
+
+# misc
+/weather/skycast/.DS_Store
+/weather/skycast/.env.local
+/weather/skycast/.env.development.local
+/weather/skycast/.env.test.local
+/weather/skycast/.env.production.local
+
+/weather/skycast/npm-debug.log*
+/weather/skycast/yarn-debug.log*
+/weather/skycast/yarn-error.log*

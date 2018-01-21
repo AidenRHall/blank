@@ -1,0 +1,36 @@
+.HomeHeader {
+    position: fixed;
+    height: 75px;
+    background: #86bac1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.HomeHeaderContent {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+}
+
+.HomeHeaderTitle {
+    color: white;
+    padding-top:0px;
+
+}
+
+.HomeHeaderTitleBox {
+    background: black;
+    height: 100%;
+    padding: 0px 15px;
+    margin-right: 40px;
+    user-select: none;
+}
+
+.HomeHeaderLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}

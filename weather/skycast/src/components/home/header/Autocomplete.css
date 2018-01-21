@@ -1,0 +1,13 @@
+.Autocomplete {
+    position:relative;
+    width: 200px;
+    right: -20px;
+    z-index: 999;
+}
+.fa-search {
+    color: white;
+    position: absolute;
+    left: -30px;
+    top: 26px;
+    font-size: 23px;
+}
