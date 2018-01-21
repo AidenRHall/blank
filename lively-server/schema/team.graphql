@@ -1,0 +1,50 @@
+    # type Team {
+    #     name: String! 
+    #     imageUrl: String 
+    #     members: [User]!
+    #     messages: [Message]!
+    #     messageCount: Int! 
+    #     channels: [Channel]!
+    #     owner: User!
+    #     channelCount: Int!
+    # }
+
+    type Team {
+        name: String 
+        url: String 
+    }
+    input CreateTeamInput {
+        name: String!
+    }
+
+    input DoesTeamExistInput {
+        url: String!
+    }
+    
+    input TeamFromUrlInput {
+        url: String!
+    }
+
+    type TeamFromUrlResponse {
+        name: String
+        url: String 
+        ok: Boolean! 
+        errors: [Error]
+    }
+
+    type Query {
+        teamFromUrl(input: TeamFromUrlInput!): TeamFromUrlResponse!
+    }
+
+    type CreateTeamResponse {
+        team: Team
+        ok: Boolean! 
+        errors: [Error]
+    }
+
+    type Mutation {
+        createTeam(input: CreateTeamInput!): CreateTeamResponse!
+        doesTeamExist(input: DoesTeamExistInput!): Boolean!
+    }
+
+

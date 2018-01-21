@@ -20,3 +20,8 @@
 /Lively/npm-debug.log*
 /Lively/yarn-debug.log*
 /Lively/yarn-error.log*
+
+
+# Server for Slack clone 
+/lively-server/node_modules/
+/lively-server/package-lock.json 

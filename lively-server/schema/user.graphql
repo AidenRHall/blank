@@ -1,0 +1,66 @@
+
+    type User {
+        id: Int! 
+        username: String!
+        email: String!
+        password: String!
+        sayHi: String
+        snoozeUntil: Int
+        channels: [Channel]!
+        team: [Team]!
+        groups: [Group]!
+        messages: [Message]!
+        ownedChannels: [Channel]!
+        imageUrl: String
+        unreadGroups: [Group]!
+        unreadChannel: [Channel]!
+        errors: [Error]
+    }
+    type Query {
+        getUser(id: Int!): User!
+        allUsers: [User!]!
+    }
+    # nesting gives more flexebility
+    input CreateUserInput {
+        username: String!
+        email: String! 
+        password: String!
+    }
+
+    type CreateUserOutput {
+        user: User
+        ok: Boolean!
+        error: Error
+        token: String 
+        refreshToken: String
+    }
+
+    # url corresponds to team url
+    input TeamLoginInput {
+        email: String!
+        password: String!
+        url: String!
+    }
+
+    input LoginUserInput {
+        username: String!
+        email: String! 
+        password: String!
+    }
+
+    type LoginUserOutput {
+        user: User
+        ok: Boolean!
+        errors: [Error]  
+        token: String 
+        refreshToken: String
+    }
+
+    type Mutation {
+        createUser(input: CreateUserInput!): LoginUserOutput!
+        loginUser(input: LoginUserInput!): LoginUserOutput!
+        registerUser(input: CreateUserInput!): Boolean!
+        teamLogin(input: TeamLoginInput!): LoginUserOutput!
+    }
+
+
