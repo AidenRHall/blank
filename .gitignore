@@ -1,0 +1,27 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Frontend for Slack clone
+# dependencies
+/Lively/node_modules
+
+# testing
+/Lively/coverage
+
+# production
+/Lively/build
+
+# misc
+/Lively/.DS_Store
+/Lively/.env.local
+/Lively/.env.development.local
+/Lively/.env.test.local
+/Lively/.env.production.local
+
+/Lively/npm-debug.log*
+/Lively/yarn-debug.log*
+/Lively/yarn-error.log*
+
+
+# Server for Slack clone 
+/lively-server/node_modules/
+/lively-server/package-lock.json 

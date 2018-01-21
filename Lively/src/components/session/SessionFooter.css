@@ -1,0 +1,46 @@
+.SessionFooter {
+    border-top: 1px solid #e8e8e8;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 18px;
+    height: 125px;
+}
+
+.SessionFooterLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    min-width: 200px;
+    margin: auto;
+}
+
+.SessionFooter a {
+    text-decoration: none;
+}
+
+.SessionFooter a:hover {
+    text-decoration: underline;
+}
+
+.SessionFooterLinks :nth-child(1) {
+    color: #ff9000;
+}
+
+.SessionFooterLinks :nth-child(2) {
+    color: #e32072;    
+}
+
+.SessionFooterLinks :nth-child(3) {
+    color: #2ea664;    
+}
+
+.SessionFooterLinks :nth-child(4) {
+    color: #4b6bc6;   
+}
