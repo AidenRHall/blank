@@ -20,3 +20,7 @@
 /weather/skycast/npm-debug.log*
 /weather/skycast/yarn-debug.log*
 /weather/skycast/yarn-error.log*
+
+#Skycast Backend 
+/weather/skycast-server/node_modules
+/weather/skycast-server/secrets.js
