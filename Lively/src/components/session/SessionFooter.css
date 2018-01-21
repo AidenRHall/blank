@@ -1,4 +1,4 @@
-.WelcomeFooter {
+.SessionFooter {
     border-top: 1px solid #e8e8e8;
     bottom: 0;
     left: 0;
@@ -13,7 +13,7 @@
     height: 125px;
 }
 
-.WelcomeFooterLinks {
+.SessionFooterLinks {
     display: flex;
     justify-content: space-between;
     width: 600px;
@@ -21,26 +21,26 @@
     margin: auto;
 }
 
-.WelcomeFooter a {
+.SessionFooter a {
     text-decoration: none;
 }
 
-.WelcomeFooter a:hover {
+.SessionFooter a:hover {
     text-decoration: underline;
 }
 
-.WelcomeFooterLinks :nth-child(1) {
+.SessionFooterLinks :nth-child(1) {
     color: #ff9000;
 }
 
-.WelcomeFooterLinks :nth-child(2) {
+.SessionFooterLinks :nth-child(2) {
     color: #e32072;    
 }
 
-.WelcomeFooterLinks :nth-child(3) {
+.SessionFooterLinks :nth-child(3) {
     color: #2ea664;    
 }
 
-.WelcomeFooterLinks :nth-child(4) {
+.SessionFooterLinks :nth-child(4) {
     color: #4b6bc6;   
 }

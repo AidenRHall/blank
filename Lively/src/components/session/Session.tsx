@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { gql, graphql, compose, QueryProps, MutationFunc } from 'react-apollo';
 import { OperationVariables } from 'react-apollo/types';
-import Error from './Error';
+import Error from '../wrappers/Error';
 import { handleTokens } from './../../util';
-import { SessionButton } from './Buttons'; 
+import { SessionButton } from '../wrappers/Buttons'; 
 import { NewUserDisplay, ExistingUserDisplay } from './displays';
 import './Session.css';
 const logo = require('../../assets/logo.png');

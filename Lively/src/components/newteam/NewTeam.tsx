@@ -1,12 +1,12 @@
 import * as React from 'react';
 import { gql, graphql, QueryProps, MutationFunc } from 'react-apollo';
 import { OperationVariables } from 'react-apollo/types';
-import { Submit, Loading } from './Buttons';
+import { Submit, Loading } from '../wrappers/Buttons';
 import { stringToTeamName, validTeamName } from '../../util';
-import WelcomeFooter from './WelcomeFooter';
-import WelcomeHeader from './WelcomeHeader';
-import Error from './Error';
-import './Signin.css';
+import SessionFooter from '../session/SessionFooter';
+import SessionHeader from '../session/SessionHeader';
+import Error from '../wrappers/Error';
+import '../session/Signin.css';
 
 interface ParentProps {
     id: string;
@@ -75,7 +75,7 @@ class NewTeam extends React.Component<GraphQLProps, State> {
         const { error, name } = this.state;
         return (
             <div className="NewTeam">
-                <WelcomeHeader />
+                <SessionHeader />
                 <Error visable={!!error}>
                     {error}   
                 </Error>
@@ -99,7 +99,7 @@ class NewTeam extends React.Component<GraphQLProps, State> {
                         {this.state.loading ? Loading() : Submit('arrow-right', 'Continue')}
                     </form>
                 </div>
-                <WelcomeFooter />
+                <SessionFooter />
             </div>
         );
     }

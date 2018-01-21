@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { gql, graphql, QueryProps, MutationFunc } from 'react-apollo';
 import { OperationVariables } from 'react-apollo/types';
-import WelcomeFooter from './WelcomeFooter';
-import WelcomeHeader from './WelcomeHeader';
+import SessionFooter from './SessionFooter';
+import SessionHeader from './SessionHeader';
 import Glitch from './Glitch';
-import Error from './Error';
+import Error from '../wrappers/Error';
 import TeamEntryForm from './TeamEntryForm';
 import './TeamEntry.css';
 
@@ -56,7 +56,7 @@ class TeamEntry extends React.Component<AllProps, State> {
         const {state, props, setError} = this;
         return (
             <div className="TeamEntry">
-                <WelcomeHeader />
+                <SessionHeader />
                 <Error visable={state.error}>
                     Sorry, you entered an incorrect email address or password.       
                 </Error>
@@ -71,7 +71,7 @@ class TeamEntry extends React.Component<AllProps, State> {
                     />
                 </div>
                 <p>Trying to create a workspace? <a href="/newteam">Create a new workspace</a></p>
-                <WelcomeFooter />
+                <SessionFooter />
             </div>
         );
     }

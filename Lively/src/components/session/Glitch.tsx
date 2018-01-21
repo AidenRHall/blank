@@ -1,7 +1,7 @@
 
 import * as React from 'react';
-import WelcomeHeader from './WelcomeHeader';
-import WelcomeFooter from './WelcomeFooter';
+import SessionHeader from './SessionHeader';
+import SessionFooter from './SessionFooter';
 import './Glitch.css';
 const background = require('../../assets/mountain.jpeg');
 
@@ -12,7 +12,7 @@ class Glitch extends React.Component {
         return (
             <div className="Glitch">
                 <div className="GlitchBackground" style={this.style} />
-                <WelcomeHeader />
+                <SessionHeader />
                 <div className="GlitchMsg">
                 <h1>
                    <i className="fa fa-exclamation-triangle" aria-hidden="true"/>
@@ -21,7 +21,7 @@ class Glitch extends React.Component {
                    <p> Probably not the place you were looking for.</p>
                 </div>
                 <div className="GlitchFooterWrap">
-                    <WelcomeFooter />
+                    <SessionFooter />
                 </div>
             </div>
         );

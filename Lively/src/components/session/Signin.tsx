@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { gql, graphql, QueryProps, MutationFunc } from 'react-apollo';
 import { OperationVariables } from 'react-apollo/types';
-import { Submit, Loading } from './Buttons';
-import WelcomeFooter from './WelcomeFooter';
-import WelcomeHeader from './WelcomeHeader';
-import Error from './Error';
+import { Submit, Loading } from '../wrappers/Buttons';
+import SessionFooter from './SessionFooter';
+import SessionHeader from './SessionHeader';
+import Error from '../wrappers/Error';
 import './Signin.css';
 
 interface ParentProps {
@@ -58,7 +58,7 @@ class Signin extends React.Component<GraphQLProps, State> {
     render() {
         return (
             <div className="Signin">
-                <WelcomeHeader />
+                <SessionHeader />
                 <Error visable={this.state.error}>
                     <b>We couldn't find your workspace. </b>
                      If you haven't created a workspace and just want to explore, you can&nbsp; 
@@ -82,7 +82,7 @@ class Signin extends React.Component<GraphQLProps, State> {
                     </form>
                 </div>
                 <p>Need to get your group started on Lively? <a href="/signup">Create a new workspace</a></p>
-                <WelcomeFooter />
+                <SessionFooter />
             </div>
         );
     }

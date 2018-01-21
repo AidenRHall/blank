@@ -5,11 +5,11 @@ import {
     Switch
 } from 'react-router-dom';
 // import Home from './home';
-import Signin from '../components/welcome/Signin';
-import TeamEntry from '../components/welcome/TeamEntry';
-import Session from '../components/welcome/Session';
+import Signin from '../components/session/Signin';
+import TeamEntry from '../components/session/TeamEntry';
+import Session from '../components/session/Session';
 import Home from '../components/App';
-import NewTeam from '../components/welcome/NewTeam';
+import NewTeam from '../components/newteam/NewTeam';
 export default () => (
     <BrowserRouter> 
         <Switch>

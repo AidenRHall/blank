@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './TeamEntry.css';
 import { handleTokens } from '../../util';
-import { Submit, Loading } from './Buttons';
+import { Submit, Loading } from '../wrappers/Buttons';
 import { validateEmail } from '../../util';
 import { MutationFunc } from 'react-apollo';
 

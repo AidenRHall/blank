@@ -1,32 +1,32 @@
 import * as React from 'react';
-import './WelcomeFooter.css';
+import './SessionFooter.css';
 
-class WelcomeFooter extends React.Component {
+class SessionFooter extends React.Component {
     render() {
         return (
-            <div className="WelcomeFooter">
-                <div className="WelcomeFooterLinks">
+            <div className="SessionFooter">
+                <div className="SessionFooterLinks">
                     <a 
                         href="https://www.linkedin.com/in/nathan-vass-4b9490132/" 
-                        className="WelcomeFooterItem"
+                        className="SessionFooterItem"
                     >
                         LinkedIn
                     </a>
                     <a 
                         href="http://www.nathanvass.site/" 
-                        className="WelcomeFooterItem"
+                        className="SessionFooterItem"
                     >
                         Portfolio
                     </a>
                     <a 
                         href="https://angel.co/nathan-vass?public_profile=1"
-                        className="WelcomeFooterItem"
+                        className="SessionFooterItem"
                     >
                         AngelList
                     </a>
                     <a 
                         href="https://github.com/th3nathan" 
-                        className="WelcomeFooterItem"
+                        className="SessionFooterItem"
                     >
                         Github
                     </a>
@@ -35,4 +35,4 @@ class WelcomeFooter extends React.Component {
         );
     }
 }
-export default WelcomeFooter;
+export default SessionFooter;

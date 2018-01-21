@@ -1,17 +1,17 @@
 import * as React from 'react';
-import './WelcomeHeader.css';
+import './SessionHeader.css';
 
 const logo = require('../../assets/logo.png');
 
-class WelcomeHeader extends React.Component {
+class SessionHeader extends React.Component {
     render() {
         return (
-            <div className="WelcomeHeader">
-                <a href="/" className="WelcomeHeaderLink flex">
+            <div className="SessionHeader">
+                <a href="/" className="SessionHeaderLink flex">
                     <img src={logo}/>
                     <h2>Lively</h2>
                 </a>
-                <div className="WelcomeNavs flex">
+                <div className="SessionNavs flex">
                     <a href="/newteam">
                         Create a new workspace
                     </a>
@@ -23,4 +23,4 @@ class WelcomeHeader extends React.Component {
         );
     }
 }
-export default WelcomeHeader;
+export default SessionHeader;
